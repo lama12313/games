@@ -15,8 +15,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Enter the Number</h2>
-        <input type="text" id="numberInput" placeholder="Enter the decoded number">
+        <input type="text" id="numberInput" placeholder="...">
         <button onclick="checkNumber()">Submit</button>
         <div class="message" id="message"></div>
     </div>
@@ -26,7 +25,7 @@
             const number = document.getElementById("numberInput").value;
             const message = document.getElementById("message");
 
-            if (number === "37175358") {  // Replace 371 with your desired correct number
+            if (number === "371") {  // Replace 371 with your desired correct number
                 message.textContent = "Correct! Your code number is 3.";
                 message.style.color = "green";
             } else {
