@@ -26,10 +26,10 @@
             const message = document.getElementById("message");
 
             if (number === "72693554") {  // Replace 371 with your desired correct number
-                message.textContent = "Correct! Your code number is 3.";
+                message.textContent = "صحيح ! رقم هذه المرحلة هو : 3.";
                 message.style.color = "green";
             } else {
-                message.textContent = "Wrong number! Try again.";
+                message.textContent = "الرقم خاطئ ! حاول مجددا.";
                 message.style.color = "red";
             }
         }
